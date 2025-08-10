@@ -1,0 +1,94 @@
+# Root ignores
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+logs/
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.tmp/
+.cache/
+**/.cache/
+.parcel-cache/
+.vite/
+**/.vite/
+.eslintcache
+.turbo/
+.vercel/
+.netlify/
+coverage/
+**/coverage/
+
+# Vite/React
+*.tsbuildinfo
+vite.svg
+
+# Lockfiles (keep if you prefer to commit)
+# yarn.lock
+# pnpm-lock.yaml
+# package-lock.json
+
+# Python / Backend
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.Python
+.python-version
+.mypy_cache/
+.pytest_cache/
+.tox/
+coverage.xml
+htmlcov/
+.venv/
+venv/
+ENV/
+.env
+.env.*
+*.env
+
+# Firebase / GCP credentials (DO NOT COMMIT SECRETS)
+# Service account keys and secret files
+*service-account*.json
+firebase-*.json
+*.secret.json
+secrets/
+**/secrets/
+
+# IDE / Editors
+.vscode/
+.vscode-*
+.idea/
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS metadata
+ehthumbs.db
+Icon?
+
+# Images/exports generated at runtime
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.pdf
+
+# UI Bakery exports (keep YAML, ignore temp)
+app v1/.uibakery-temp/
+
+# Misc
+*.orig
+*.rej
